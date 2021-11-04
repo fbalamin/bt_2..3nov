@@ -1,0 +1,29 @@
+/*fonts*/
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.ttf);
+	font-family: PlayfairDisplay-Regular;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Bold.ttf);
+	font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-BlackItalic.ttf);
+	font-family: PlayfairDisplay-BlackItalic;
+}
+/*common style start*/
+/*common style end*/
+h1{
+	text-align: center;
+	padding: 30px 0;
+}
+section{
+	padding-bottom: 20px;
+}
+.full_row{
+	min-height: 400px;
+}
+.box{
+	min-height: 150px;
+	background: red;
+}
